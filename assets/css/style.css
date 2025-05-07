@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1A1C22;
+    padding: 48px 80px;
+}
+
+.judul-volkhov{
+    font-family: 'Volkhov', sans-serif;
+}
+
+.button{
+    padding: 9px 28px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #BC0E19, #DB202C);
+    box-shadow: 0px 5px 25px rgba(192, 30, 41, 0.5);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div.logo img{
+    width: 89px;
+}
+
+nav div.navs{
+    display: flex;
+    gap: 24px;
+}
+
+nav div.navs a{
+    text-decoration: none;
+    color: #FEF4F4;
+}
+
+nav div.button-nav{
+    display: flex;
+    gap: 24px;
+}
+
+nav div.button-nav a{
+    text-decoration: none;
+    color: #FEF4F4;
+}
+
+
