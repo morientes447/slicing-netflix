@@ -13,7 +13,48 @@ body{
     border-radius: 15px;
     background: linear-gradient(to bottom right, #BC0E19, #DB202C);
     box-shadow: 0px 5px 25px rgba(192, 30, 41, 0.5);
-    
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FEF4F4;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+}
+
+.service-card{
+    padding: 24px;
+    background-color: #1F2127;
+    border-radius: 30px;
+}
+
+.service-card img.service{
+    width: 70px;
+}
+
+.service-card img.promo{
+    width: 242px;
+    border-radius: 15px;
+}
+
+.service-card h1{
+    font-size: 18px;
+    line-height: 30px;
+    color: #FEF4F4;
+}
+
+.service-card p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #E3E0E0;
+}
+
+h1.title{
+    font-family: 'Volkhov', sans-serif;
+    color: #FEF4F4;
+    line-height: 72px;
+    letter-spacing: 0.9px;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 nav{
@@ -34,6 +75,9 @@ nav div.navs{
 nav div.navs a{
     text-decoration: none;
     color: #FEF4F4;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 nav div.button-nav{
@@ -46,4 +90,86 @@ nav div.button-nav a{
     color: #FEF4F4;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+}
+
+main section.hero{
+    display: flex;
+    gap: 40px;
+    margin-top: 48px;
+}
+
+main section.hero div.left-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main section.hero div.left-hero h1{
+    font-weight: 700;
+    font-size: 56px;
+    color: #FEF4F4;
+    line-height: 80px;
+    letter-spacing: 1.5px;
+}
+
+main section.hero div.left-hero p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    color: #E3E1E1;
+    margin-bottom: 24px;
+}
+
+main section.hero div.right-hero img{
+    width: 617px;
+}
+
+main section.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+main section.service div.service-bottom{
+    display: flex;
+    gap: 40px;
+}
+
+main section.snap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+main section.snap div.img-wrapper{
+    position: relative;
+    width: fit-content;
+}
+
+main section.snap div.img-wrapper .blur-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 519px;
+  height: 519px;
+  background-color: #5F7ADB;
+  opacity: 0.8;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
+}
+
+main section.snap img{
+    width: 637px;
+}
 
